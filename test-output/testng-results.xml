@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-27T19:51:11 GMT-04:00" name="Default suite" finished-at="2023-09-27T19:51:25 GMT-04:00" duration-ms="14570">
+    <groups>
+    </groups>
+    <test started-at="2023-09-27T19:51:11 GMT-04:00" name="Default test" finished-at="2023-09-27T19:51:25 GMT-04:00" duration-ms="14570">
+      <class name="test.FaceBookLoginTest">
+        <test-method is-config="true" signature="addReports()[pri:0, instance:test.FaceBookLoginTest@606e4010]" started-at="2023-09-27T19:51:11 GMT-04:00" name="addReports" finished-at="2023-09-27T19:51:11 GMT-04:00" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReports -->
+        <test-method is-config="true" signature="browser()[pri:0, instance:test.FaceBookLoginTest@606e4010]" started-at="2023-09-27T19:51:11 GMT-04:00" name="browser" finished-at="2023-09-27T19:51:19 GMT-04:00" duration-ms="7921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="loginWithInvalidUserNameAndValidPassword()[pri:0, instance:test.FaceBookLoginTest@606e4010]" started-at="2023-09-27T19:51:19 GMT-04:00" name="loginWithInvalidUserNameAndValidPassword" finished-at="2023-09-27T19:51:19 GMT-04:00" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUserNameAndValidPassword -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.FaceBookLoginTest@606e4010]" started-at="2023-09-27T19:51:20 GMT-04:00" name="closeBrowser" finished-at="2023-09-27T19:51:20 GMT-04:00" duration-ms="178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithInvalidUserNameAndValidPassword status=SUCCESS method=FaceBookLoginTest.loginWithInvalidUserNameAndValidPassword()[pri:0, instance:test.FaceBookLoginTest@606e4010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browser()[pri:0, instance:test.FaceBookLoginTest@606e4010]" started-at="2023-09-27T19:51:20 GMT-04:00" name="browser" finished-at="2023-09-27T19:51:22 GMT-04:00" duration-ms="2178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="loginWithValidCredentials()[pri:0, instance:test.FaceBookLoginTest@606e4010]" started-at="2023-09-27T19:51:22 GMT-04:00" name="loginWithValidCredentials" finished-at="2023-09-27T19:51:22 GMT-04:00" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.FaceBookLoginTest@606e4010]" started-at="2023-09-27T19:51:22 GMT-04:00" name="closeBrowser" finished-at="2023-09-27T19:51:22 GMT-04:00" duration-ms="150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidCredentials status=SUCCESS method=FaceBookLoginTest.loginWithValidCredentials()[pri:0, instance:test.FaceBookLoginTest@606e4010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browser()[pri:0, instance:test.FaceBookLoginTest@606e4010]" started-at="2023-09-27T19:51:22 GMT-04:00" name="browser" finished-at="2023-09-27T19:51:24 GMT-04:00" duration-ms="2121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="loginWithValidUserNameAndInvalidPassword()[pri:0, instance:test.FaceBookLoginTest@606e4010]" started-at="2023-09-27T19:51:24 GMT-04:00" name="loginWithValidUserNameAndInvalidPassword" finished-at="2023-09-27T19:51:25 GMT-04:00" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUserNameAndInvalidPassword -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:test.FaceBookLoginTest@606e4010]" started-at="2023-09-27T19:51:25 GMT-04:00" name="closeBrowser" finished-at="2023-09-27T19:51:25 GMT-04:00" duration-ms="150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidUserNameAndInvalidPassword status=SUCCESS method=FaceBookLoginTest.loginWithValidUserNameAndInvalidPassword()[pri:0, instance:test.FaceBookLoginTest@606e4010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="flushData()[pri:0, instance:test.FaceBookLoginTest@606e4010]" started-at="2023-09-27T19:51:25 GMT-04:00" name="flushData" finished-at="2023-09-27T19:51:25 GMT-04:00" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushData -->
+      </class> <!-- test.FaceBookLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
